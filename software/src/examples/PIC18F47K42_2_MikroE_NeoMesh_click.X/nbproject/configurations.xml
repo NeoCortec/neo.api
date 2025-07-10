@@ -39,6 +39,22 @@
         <itemPath>../../api/NcApi.c</itemPath>
         <itemPath>../../api/NeoParser.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="common" displayName="common" projectFiles="true">
+        <itemPath>../common/NcApiExample.c</itemPath>
+        <itemPath>../common/NcApiSupportExample.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MCC Generated Files"
+                     displayName="MCC Generated Files"
+                     projectFiles="true">
+        <logicalFolder name="system" displayName="system" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="uart" displayName="uart" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
       <logicalFolder name="mcc_generated_files"
                      displayName="mcc_generated_files"
                      projectFiles="true">
@@ -58,14 +74,13 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>main.c</itemPath>
-      <itemPath>NcApiExample.c</itemPath>
-      <itemPath>NcApiSupportExample.c</itemPath>
+      <itemPath>my_ncapi_hal.c</itemPath>
+      <itemPath>../main.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
     <Elem>../../api</Elem>
-    <Elem>.</Elem>
+    <Elem>..</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -118,7 +133,7 @@
         <property key="default-char-type" value="true"/>
         <property key="define-macros" value=""/>
         <property key="disable-optimizations" value="true"/>
-        <property key="extra-include-directories" value="..\..\api"/>
+        <property key="extra-include-directories" value="..\..\api;..\common"/>
         <property key="favor-optimization-for" value="-speed,+space"/>
         <property key="garbage-collect-data" value="true"/>
         <property key="garbage-collect-functions" value="true"/>

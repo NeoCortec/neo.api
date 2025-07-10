@@ -3,14 +3,14 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>PIC18F47K42_2_MikroE_NeoMesh_click</name>
+            <name>PIC18F47K42_2_MikroE_NeoMesh_click(internal)</name>
             <creation-uuid>8dae3f79-3b95-46a6-b5c6-d508262f2c09</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>../../api</sourceRootElem>
-                <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>..</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
